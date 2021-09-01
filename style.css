@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(135deg, #CC00FF 0%, #00C2FF 100%);
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+header .header-image img {
+  max-width: 260px;
+}
+
+@media (max-width: 340px) {
+  header .header-image img {
+    max-width: 200px;
+  }
+}
+
+main h1 {
+  color: #FFFFFF;
+  margin-top: 25vh;
+}
+
+button.btn-light {
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+}
+
+button.btn-light:active, button.btn-light:focus, button.btn-light:hover {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+footer .footer-links {
+  cursor: initial;
+}
+
+footer .footer-links a {
+  color: #FFFFFF;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  text-decoration: none;
+}
+
+footer .footer-links a:active,
+footer .footer-links a:focus,
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
